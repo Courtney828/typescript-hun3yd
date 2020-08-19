@@ -8,7 +8,7 @@ appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
 var first = 1;
 var second = 2;
 
-console.log(lowest(first, second));
+console.log("The lowest number is "+lowest(first, second));
 
  function lowest(a, b) {
 	if(a < b)
